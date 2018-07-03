@@ -16,4 +16,9 @@ public class HellDao {
      public String sayHow(String name){
         return "name:"+name;
     }
+
+    public String sayWhy(){
+        System.out.println("why");
+        return null;
+    }
 }
