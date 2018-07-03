@@ -12,4 +12,8 @@ public class HellDao {
     public String sayWhat(String name){
         return "name:"+name;
     }
+    
+     public String sayHow(String name){
+        return "name:"+name;
+    }
 }
