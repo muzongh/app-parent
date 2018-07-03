@@ -21,4 +21,9 @@ public class HellDao {
         System.out.println("why");
         return null;
     }
+
+     public String sayWhere(String name){
+        return "name:"+name;
+    }
+
 }
